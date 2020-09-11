@@ -154,7 +154,7 @@ p {
 }
 
 h6{
-    font-size: 20px;
+    font-size: 30px;
     color: white;
     text-align: center;
 }
@@ -169,4 +169,22 @@ button {
     font-size: 10px;
     margin-left: 40%;
     margin-top: 10px;
+}
+
+.beskrivelse{
+    color: #FF1493;
+    font-size: 30px;
+    text-align: center;
+}
+
+.column2{
+    flex: 50%;
+    padding: 5px;
+}
+
+.box{
+    background-color: rgba(255,255,255,0.8);
+    border: rgba(255,255,255,0.8);
+    margin: 5px;
+    padding: 5px;
 }
