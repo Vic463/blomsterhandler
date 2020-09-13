@@ -171,23 +171,35 @@ button {
     margin-top: 10px;
 }
 
-.beskrivelse{
-    color: #FF1493;
-    font-size: 30px;
-    text-align: center;
-}
-
-
-.box{
-    background-color: rgba(255,255,255,0.8);
-    border: rgba(255,255,255,0.8);
-    margin: 5px;
-    padding: 5px;
-}
-
 .row2 {
     display: flex;
     margin: 10px;
     margin-top: 60px;
 
+}
+
+.container{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.beskrivelse{
+
+}
+h1{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.billede{
+    width: 100%;
+    height: auto;
 }
