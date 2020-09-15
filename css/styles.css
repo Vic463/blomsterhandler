@@ -84,7 +84,7 @@ header{
 
 main{
     display: grid;
-    grid-template-columns: 15vw 23vw 24vw 23vw 15vw;
+    grid-template-columns: 15% 23% 24% 23% 15%;
 }
 #hero{
     grid-column: 1 / -1;
@@ -203,3 +203,77 @@ h2{
     width: 100%;
     height: auto;
 }
+
+#introtekst{grid-column: 2 / 5;}
+#nyheder{
+    grid-column: 1 / -1;
+    margin: 35px 0 10px;
+    padding: 25px 0 15px;
+    background-color: white;
+}
+#newsheadline{
+    text-align: center;
+    font-size: 40pt;
+    font-family: 'Great Vibes', cursive;
+    color: hotpink;
+}
+#news{display: flex;}
+.newstext{
+    color: hotpink;
+    font-size: 15pt;
+}
+.nyhed{padding: 0 10px;}
+#kategorier{
+    grid-column: 2 / 5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px 0 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+#katheadline{
+    width: 70vw;
+    text-align: center;
+    font-size: 30pt;
+    font-family: 'Great Vibes', cursive;
+    color: deeppink;
+    padding-top: 20px;
+}
+.kat{
+    width: 30vw;
+    padding: 40px 10px 10px;
+}
+#mostwanted{
+    grid-column: 1 / -1;
+    margin: 35px 0 10px;
+    padding: 15px 0;
+    background-color: white;
+}
+#mwheadline{
+    text-align: center;
+    font-size: 40pt;
+    font-family: 'Great Vibes', cursive;
+    color: hotpink;
+}
+#mw{display: flex;}
+.mwtext{
+    color: hotpink;
+    font-size: 20pt;
+}
+footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px 8vw 20px;
+    color: #ff1493;
+    font-size: 12pt;
+}
+.footerbox{
+    height: 200px;
+    width: 250px;
+    padding-top: 10px;
+    text-align: center;
+}
+.footerbox a{color: deeppink;}
